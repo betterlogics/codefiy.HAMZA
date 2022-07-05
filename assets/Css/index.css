@@ -1,0 +1,547 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+.navbar {
+    position: fixed;    
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    padding :0px
+
+    /* padding: 8px 0px!important; */
+    /* padding-bottom: 40px; */
+    /* flex-wrap: wrap; */
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4); */
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex_item1 {
+    width: 25%;
+    padding-left: 100px;
+    padding-top: 10px;
+    /* padding-bottom: 30px; */
+}
+
+.flex_item2 {
+    width: 75%;
+    display: flex;
+
+    /* padding-right: 180px;    */
+    padding-bottom: 30px;
+    padding-left: 400px;
+    margin-top: -45px;
+    /* padding-top: 30px; */
+    /* flex-wrap: wrap; */
+}
+
+.nav_sub1 img{
+
+width: 210px;
+    height: 70px;
+    display: flex;
+}
+
+.nav_sub2 {
+
+    float: right !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.a_class {
+
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    white-space: normal;
+}
+
+.a_class:hover{
+    color: aqua;
+}
+.container{
+
+    background-image: url(/assets/images/landscape-nature-rock-wilderness-sunrise-sunset-712348-pxhere-com-1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 300px;
+    padding-top: 300px;
+    opacity: 1.5;
+    width: auto;
+    
+}
+.phraghr{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    width: 100%;
+    /* padding-left: 230px; */
+    line-height: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.text_home_page{
+    display: flex;
+    justify-content: center;
+}
+.text_p{
+    
+    width: 70%;
+}
+.btn{
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(26, 193, 245);
+    padding: 15PX 15px 15px 15px;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: rgb(37, 120, 192);
+    cursor: pointer;
+}
+.heading{
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+/* -----------------------------------------------------Boxs=----------------------------- */
+.boxs{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: -100px;
+     width: 100%; 
+}
+.blue{
+    background-color: rgb(0, 140, 255);
+    width: 300px;
+    padding: 30px;
+    
+}
+.yellow{
+    background-color: rgb(194, 194, 0);
+    width: 300px;
+    padding: 30px;
+   
+
+}
+.orange{
+    background-color: orange;
+    width: 300px;
+    padding: 30px;
+}
+.person{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 55px;
+    background-color: rgb(196, 196, 196);
+}
+.boxs p{
+    text-align: center;
+    padding-left: 5px;
+    /* padding-right: 30px; */
+    width: 100%;
+}
+.blue h3{
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    
+}
+.orange h3{
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    
+}
+.yellow h3{
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 15px;   
+}
+
+
+
+
+/* forth section */
+
+
+.container_1 h4{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    color:rgb(255, 70, 19);
+    
+    
+}
+
+
+.container_1 h1{
+    text-align: center;
+    justify-content: center;
+    font-weight:bold;
+    padding: 5px;
+    font-size: 35px;
+    
+}
+
+
+.container_1 p{
+    text-align: center;
+    justify-content: center;
+    /* width: 90%; */
+    
+     padding-left: 200px;
+     padding-right: 160px;  
+    line-height: 29px;
+}
+.container_1mg{
+    
+    /* padding-top: 130px; */
+
+    padding-left: 110px;
+}
+.immmg{
+
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+.line{
+    font-size: 33px;
+    font-weight: 100;
+    /* text-decoration: line-through; */
+    text-align: center;
+    padding-bottom: 90px;
+    
+}
+
+
+
+
+
+/* -----------------------------------------------box1--------------------------------- */
+
+.boxs1{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    /* margin-top: -100px; */
+     width: 100%; 
+     padding-bottom: 100px;
+}
+
+.blue1{
+    background-color: rgb(0, 140, 255);
+    width: 300px;
+    padding: 30px;
+    
+}
+.yellow1{
+    background-color: rgb(194, 194, 0);
+    width: 300px;
+    padding: 30px;
+   
+
+}
+.orange1{
+    background-color: orange;
+    width: 300px;
+    padding: 30px;
+}
+
+.container-2{
+    background-color: rgb(233, 233, 233);
+    /* display: flex; */
+    
+}
+
+.services{
+
+    display: flex;
+    justify-content:center;
+    padding: 90px;
+    /* text-align: center; */
+/* margin-left: 100px; */
+}
+.main{
+display: flex;
+justify-content:center;
+padding: 10px;
+/* padding-bottom: 50px; */
+color: gray;
+line-height: 40px;
+width: 90%;
+padding-left: 60px;
+
+
+}
+.in-line-main{
+    padding-left: 60px;
+    
+}
+
+.both{
+
+    background-image: url(/assets/images/landscape-nature-rock-wilderness-sunrise-sunset-712348-pxhere-com-1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 300px;
+    padding-top: 300px;
+    opacity: 1.5;
+    width: auto;
+
+
+}
+
+
+
+.part{
+    display: flex;
+    justify-content:center;
+    border: 2px solid white;
+    background-color: white;
+    width: 49%;
+    margin: 10px;
+}
+
+
+
+
+
+                                    
+                                            /* footer */
+.foter p {
+
+    text-align: center;
+    
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #f1f1f1 !important;
+    letter-spacing: 1px;
+}
+
+.foter p:hover {
+color:rgb(90, 237, 90)
+}
+
+
+
+
+
+                                            /*  Small Mobile */
+
+@media screen and (max-width: 600px)
+
+
+
+{
+
+    .navbar{
+        width: 100%;background-color: black;
+        padding-left: 0px;
+    }
+
+    .nav_sub1 img{
+        align-items: center;
+        justify-content: center;
+        width: 210px;   
+        height: 70px;
+        /* padding-left: 0%; */
+        
+    }
+
+    .flex_item1{
+        padding-left: 55px;
+    }
+
+
+    .flex_item2{
+        display: none;
+        background-color: brown;
+    }
+    .container h1{
+        font-size: 25px;
+        margin-left: -40px;
+        padding-top: 100px;
+    }
+    .container{
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 150px;
+    }
+
+.boxs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.blue{
+    width: 70%;
+}
+.orange{
+    width: 70%;
+    margin-top: 20px;
+}
+.yellow{
+    width: 70%;
+     margin-top: 20px;
+}
+.container_1 h4{
+    padding-top: 10%;
+}
+
+
+    .container_1 h1{
+        font-size: 16px;
+        padding-top: 40px;
+
+    }
+    .container_1 p{
+        display:contents;
+        justify-content: center;
+        padding-left: 5px;
+        width: 70%;
+
+    }
+
+    .immmg{
+        /* justify-content: center; */
+        display: flex;
+        padding-top: 40px;
+        width: 300px;
+        /* padding-bottom: 50px; */
+    }
+    .line{
+        text-align: center;
+        justify-items: center;
+/* display: flex; */
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+        /* margin-left: 30px; */
+    }
+
+
+
+/* ---------------------------------------------------box1-------------------------------- */
+.boxs1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.blue1{
+    width: 70%;
+}
+.orange1{
+    width: 70%;
+    margin-top: 20px;
+}
+.yellow1{
+    width: 70%;
+     margin-top: 20px;
+}
+
+
+
+
+
+
+}
+
+            /*  Medium Moble  */
+
+@media (min-width:330px) and (max-width:420px)
+{
+
+    .flex_item1{
+        padding-left: 80px;
+    }
+
+
+}
+
+    /* Large Mobile */
+
+
+@media (min-width:420px) and (max-width:480px){
+
+    .flex_item1{
+        padding-left: 110px;
+    }
+
+}
+
+
+            /* Tablet */
+
+
+            
+@media (min-width:600px) and (max-width:800px){
+
+    .flex_item1{
+        padding-left: 60px;
+    }
+
+    .flex_item2 {
+
+        display: none;
+
+        width: 75%;
+        display: flex;
+    
+        padding-right: 0px;
+        padding: 0px;
+        padding-top: 30px;
+        
+    }
+
+    .a_class {
+
+        /* padding: 8px 16px; */
+        float: left;
+        width: auto;
+        border: none;
+        /* display: block; */
+        display: flex;
+        outline: 0;
+        white-space: normal;
+    }
+    .nav_sub1 img{
+
+        width: 100px;
+            height: 70px;
+            display: flex;
+        }
+
+}
