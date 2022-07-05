@@ -1,0 +1,147 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+position: relative;
+padding-bottom : 40px;
+height: auto;
+text-align: center;
+}
+
+
+.back_ground{
+    
+    margin-top: 160px;
+    
+} 
+ .one{
+     left: 40%;
+     position: absolute;
+     bottom: 40px;
+     width: 300px;
+     transition-duration: 2s;
+     
+    }  
+    .two{
+        
+        position: relative;
+        width: 350px;
+        /* z-index: 2; */
+    }
+        
+ .three{
+    right: 40%;
+     position: absolute;
+     bottom: 40px;
+     width: 300px;
+     transition-duration: 2s;
+} 
+
+.back_ground:hover .one{
+    left:25%    
+}
+.back_ground:hover .three{
+
+    right  :25%;
+}
+
+
+
+
+/* ----------------------------section 02-------------------------- */
+
+.container2{
+    display: flex;
+    /* justify-content:space-around; */
+    margin: 5%;
+    color: rgb(255, 255, 255);
+    
+}
+
+.image{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iphone_11{
+    width: 50%;
+    /* padding-top: 5px; */
+    /* z-index: 1; */
+}
+
+.iphone_12{
+
+    position: relative;
+    top: -11px;
+    width: 50%;
+    z-index: 1;
+}
+
+
+.move{
+    display: flex;
+    /* justify-content:space-around; */
+    
+    
+}
+
+.img1{
+    position: absolute;
+    width: 30%;
+    /* height: 5%; */
+    transition: 1s;
+    
+}
+.img2{
+    position: relative;
+    width: 30%;
+    /* height: 5%; */
+}
+
+.move:hover .img1{
+
+    transform: translate(200px);
+} 
+
+
+
+/* ----------------------------------last------------------------------------- */
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{ transform: rotate(360deg);
+
+    }
+    
+  }
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.circle{
+    /* transform-style: calc(45px); */
+ 
+
+    position: relative;
+    /* top: 50%;
+    left: 50%;
+    width: 130px;
+    height: 125px; */
+    /* animation-name: example; */
+    animation: rotate 1s linear infinite;
+    /* filter: grayscale(100%); */
+}
+
+.personal{
+    width: 140px;
+    clip-path:circle();
+    position:absolute;
+    /* border-radius: 50%; */
+}
